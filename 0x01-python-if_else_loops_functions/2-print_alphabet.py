@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-import string
+#import string
 
-for i in string(97, 123):
-    print(":d".format(str(i)), end=" ")
+for i in range(97, 123):
+    print(":d".format(chr(i)), end=" ")
